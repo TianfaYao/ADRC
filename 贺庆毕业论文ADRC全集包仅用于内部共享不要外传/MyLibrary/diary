@@ -1,0 +1,583 @@
+uiopen('D:\Program Files\MATLAB\R2010b\toolbox\simulink\MyLibrary\diary',1)
+df 
+{??? Undefined function or variable 'df'.
+} 
+edit
+help
+HELP topics:
+
+<a href="matlab:help('My Documents\MATLAB')">My Documents\MATLAB</a>            - (No table of contents file)
+<a href="matlab:help matlab\general">matlab\general</a>                 - General purpose commands.
+<a href="matlab:help matlab\ops">matlab\ops</a>                     - Operators and special characters.
+<a href="matlab:help matlab\lang">matlab\lang</a>                    - Programming language constructs.
+<a href="matlab:help matlab\elmat">matlab\elmat</a>                   - Elementary matrices and matrix manipulation.
+<a href="matlab:help matlab\randfun">matlab\randfun</a>                 - Random matrices and random streams.
+<a href="matlab:help matlab\elfun">matlab\elfun</a>                   - Elementary math functions.
+<a href="matlab:help matlab\specfun">matlab\specfun</a>                 - Specialized math functions.
+<a href="matlab:help matlab\matfun">matlab\matfun</a>                  - Matrix functions - numerical linear algebra.
+<a href="matlab:help matlab\datafun">matlab\datafun</a>                 - Data analysis and Fourier transforms.
+<a href="matlab:help matlab\polyfun">matlab\polyfun</a>                 - Interpolation and polynomials.
+<a href="matlab:help matlab\funfun">matlab\funfun</a>                  - Function functions and ODE solvers.
+<a href="matlab:help matlab\sparfun">matlab\sparfun</a>                 - Sparse matrices.
+<a href="matlab:help matlab\scribe">matlab\scribe</a>                  - Annotation and Plot Editing.
+<a href="matlab:help matlab\graph2d">matlab\graph2d</a>                 - Two dimensional graphs.
+<a href="matlab:help matlab\graph3d">matlab\graph3d</a>                 - Three dimensional graphs.
+<a href="matlab:help matlab\specgraph">matlab\specgraph</a>               - Specialized graphs.
+<a href="matlab:help matlab\graphics">matlab\graphics</a>                - Handle Graphics.
+<a href="matlab:help matlab\uitools">matlab\uitools</a>                 - Graphical User Interface Tools.
+<a href="matlab:help matlab\strfun">matlab\strfun</a>                  - Character strings.
+<a href="matlab:help matlab\imagesci">matlab\imagesci</a>                - Image and scientific data input/output.
+<a href="matlab:help matlab\iofun">matlab\iofun</a>                   - File input and output.
+<a href="matlab:help matlab\audiovideo">matlab\audiovideo</a>              - Audio and Video support.
+<a href="matlab:help matlab\timefun">matlab\timefun</a>                 - Time and dates.
+<a href="matlab:help matlab\datatypes">matlab\datatypes</a>               - Data types and structures.
+<a href="matlab:help matlab\verctrl">matlab\verctrl</a>                 - Version control.
+<a href="matlab:help matlab\codetools">matlab\codetools</a>               - Commands for creating and debugging code
+<a href="matlab:help matlab\helptools">matlab\helptools</a>               - Help commands.
+<a href="matlab:help matlab\winfun">matlab\winfun</a>                  - Windows Operating System Interface Files (COM/DDE)
+<a href="matlab:help winfun\NET">winfun\NET</a>                     - Using .NET from within MATLAB
+<a href="matlab:help matlab\demos">matlab\demos</a>                   - Examples and demonstrations.
+<a href="matlab:help matlab\timeseries">matlab\timeseries</a>              - Time series data visualization and exploration.
+<a href="matlab:help matlab\hds">matlab\hds</a>                     - (No table of contents file)
+<a href="matlab:help matlab\guide">matlab\guide</a>                   - Graphical User Interface Tools.
+<a href="matlab:help matlab\plottools">matlab\plottools</a>               - Graphical User Interface Tools.
+<a href="matlab:help toolbox\local">toolbox\local</a>                  - General preferences and configuration information.
+<a href="matlab:help matlab\datamanager">matlab\datamanager</a>             - (No table of contents file)
+<a href="matlab:help shared\instrument">shared\instrument</a>              - (No table of contents file)
+<a href="matlab:help matlabxl\matlabxl">matlabxl\matlabxl</a>              - MATLAB Builder EX
+<a href="matlab:help simulink\simulink">simulink\simulink</a>              - Simulink
+<a href="matlab:help simulink\blocks">simulink\blocks</a>                - Simulink block library.
+<a href="matlab:help simulink\components">simulink\components</a>            - Simulink components.
+<a href="matlab:help simulink\fixedandfloat">simulink\fixedandfloat</a>         - Simulink Fixed Point utilities.
+<a href="matlab:help fixedandfloat\fxpdemos">fixedandfloat\fxpdemos</a>         - Simulink Fixed Point Demos
+<a href="matlab:help fixedandfloat\obsolete">fixedandfloat\obsolete</a>         - (No table of contents file)
+<a href="matlab:help simulink\simdemos">simulink\simdemos</a>              - Simulink demonstrations and examples.
+<a href="matlab:help simdemos\aerospace">simdemos\aerospace</a>             - Simulink: Aerospace model demonstrations and samples.
+<a href="matlab:help simdemos\automotive">simdemos\automotive</a>            - Simulink: Automotive model demonstrations and samples.
+<a href="matlab:help simdemos\simfeatures">simdemos\simfeatures</a>           - Simulink: Feature demonstrations and samples.
+<a href="matlab:help simdemos\simgeneral">simdemos\simgeneral</a>            - Simulink: General model demonstrations and samples.
+<a href="matlab:help simulink\dee">simulink\dee</a>                   - Differential Equation Editor
+<a href="matlab:help glue\studio">glue\studio</a>                    - (No table of contents file)
+<a href="matlab:help dastudio\depviewer">dastudio\depviewer</a>             - (No table of contents file)
+<a href="matlab:help stateflow\stateflow">stateflow\stateflow</a>            - Stateflow
+<a href="matlab:help rtw\rtw">rtw\rtw</a>                        - Real-Time Workshop
+<a href="matlab:help shared\sigbldr">shared\sigbldr</a>                 - (No table of contents file)
+<a href="matlab:help simulink\MPlayIO">simulink\MPlayIO</a>               - (No table of contents file)
+<a href="matlab:help shared\hdlshared">shared\hdlshared</a>               - HDL Library
+<a href="matlab:help rtw\accel">rtw\accel</a>                      - (No table of contents file)
+<a href="matlab:help targets\shared">targets\shared</a>                 - (No table of contents file)
+<a href="matlab:help simulink\modeladvisor">simulink\modeladvisor</a>          - (No table of contents file)
+<a href="matlab:help stateflow\sfdemos">stateflow\sfdemos</a>              - Stateflow demonstrations and samples.
+<a href="matlab:help stateflow\coder">stateflow\coder</a>                - Stateflow Coder
+<a href="matlab:help rtw\rtwdemos">rtw\rtwdemos</a>                   - Real-Time Workshop Demos
+<a href="matlab:help rtwdemos\rsimdemos">rtwdemos\rsimdemos</a>             - (No table of contents file)
+<a href="matlab:help asap2\asap2">asap2\asap2</a>                    - (No table of contents file)
+<a href="matlab:help asap2\user">asap2\user</a>                     - (No table of contents file)
+<a href="matlab:help can\blocks">can\blocks</a>                     - (No table of contents file)
+<a href="matlab:help common\tgtcommon">common\tgtcommon</a>               - (No table of contents file)
+<a href="matlab:help targets\pil">targets\pil</a>                    - (No table of contents file)
+<a href="matlab:help rtwin\rtwin">rtwin\rtwin</a>                    - Real-Time Windows Target
+<a href="matlab:help rtwin\rtwindemos">rtwin\rtwindemos</a>               - (No table of contents file)
+<a href="matlab:help extensions\adivdsp">extensions\adivdsp</a>             - Using Embedded IDE Link for use with Analog Devices(TM) VisualDSP++(R):
+<a href="matlab:help adivdsp\util">adivdsp\util</a>                   - (No table of contents file)
+<a href="matlab:help adivdsp\vdspdemos">adivdsp\vdspdemos</a>              - (No table of contents file)
+<a href="matlab:help adivdsp\mdlinfo">adivdsp\mdlinfo</a>                - (No table of contents file)
+<a href="matlab:help adivdsp\tfl">adivdsp\tfl</a>                    - (No table of contents file)
+<a href="matlab:help aero\aero">aero\aero</a>                      - Aerospace Toolbox
+<a href="matlab:help shared\mapgeodesy">shared\mapgeodesy</a>              - Geometric Geodesy Functions
+<a href="matlab:help aeroblks\aeroblks">aeroblks\aeroblks</a>              - Aerospace Blockset
+<a href="matlab:help aeroblks\aerodemos">aeroblks\aerodemos</a>             - Aerospace Blockset demonstrations and examples.
+<a href="matlab:help aero\astdemos">aero\astdemos</a>                  - (No table of contents file)
+<a href="matlab:help AUTOSAR\AUTOSAR">AUTOSAR\AUTOSAR</a>                - (No table of contents file)
+<a href="matlab:help bioinfo\bioinfo">bioinfo\bioinfo</a>                - Bioinformatics Toolbox
+<a href="matlab:help bioinfo\biolearning">bioinfo\biolearning</a>            - Bioinformatics Toolbox -- Statistical Learning functions.
+<a href="matlab:help bioinfo\microarray">bioinfo\microarray</a>             - Bioinformatics Toolbox -- Microarray support functions.
+<a href="matlab:help bioinfo\mass_spec">bioinfo\mass_spec</a>              - Bioinformatics Toolbox -- Mass spectrometry data analysis functions.
+<a href="matlab:help bioinfo\proteins">bioinfo\proteins</a>               - Bioinformatics Toolbox -- Protein analysis tools.
+<a href="matlab:help bioinfo\biomatrices">bioinfo\biomatrices</a>            - Bioinformatics Toolbox -- Sequence similarity scoring matrices.
+<a href="matlab:help bioinfo\biodemos">bioinfo\biodemos</a>               - Bioinformatics Toolbox -- Tutorials, demos and examples.
+<a href="matlab:help bioinfo\graphtheory">bioinfo\graphtheory</a>            - Bioinformatics Toolbox -- Graph Theory functions.
+<a href="matlab:help processor\blackfin">processor\blackfin</a>             - Using Target Support Package for use with Analog Devices Blackfin:
+<a href="matlab:help blks\masks">blks\masks</a>                     - (No table of contents file)
+<a href="matlab:help blackfin\blackfindemos">blackfin\blackfindemos</a>         - (No table of contents file)
+<a href="matlab:help c166\c166">c166\c166</a>                      - Using Target Support Package for use with Infineon C166:
+<a href="matlab:help c166\blocks">c166\blocks</a>                    - (No table of contents file)
+<a href="matlab:help c166\c166demos">c166\c166demos</a>                 - (No table of contents file)
+<a href="matlab:help utils\resource_config">utils\resource_config</a>          - (No table of contents file)
+<a href="matlab:help shared\can">shared\can</a>                     - (No table of contents file)
+<a href="matlab:help can\canblks">can\canblks</a>                    - (No table of contents file)
+<a href="matlab:help can\canmasks">can\canmasks</a>                   - (No table of contents file)
+<a href="matlab:help can\canmex">can\canmex</a>                     - (No table of contents file)
+<a href="matlab:help comm\comm">comm\comm</a>                      - Communications Toolbox
+<a href="matlab:help comm\commdemos">comm\commdemos</a>                 - Communications Toolbox Demos.
+<a href="matlab:help comm\examples">comm\examples</a>                  - Communications Toolbox Documentation Examples.
+<a href="matlab:help comm\commobsolete">comm\commobsolete</a>              - Archived MATLAB Files from Communications Toolbox Version 1.5.
+<a href="matlab:help commblks\commblks">commblks\commblks</a>              - Communications Blockset
+<a href="matlab:help commblks\commmasks">commblks\commmasks</a>             - Communications Blockset library block mask helper functions.
+<a href="matlab:help commblks\commmex">commblks\commmex</a>               - Communications Blockset S-function MEX-files.
+<a href="matlab:help commblks\commblksdemos">commblks\commblksdemos</a>         - Communications Blockset Demos.
+<a href="matlab:help commblksobsolete\v3">commblksobsolete\v3</a>            - (No table of contents file)
+<a href="matlab:help commblksobsolete\v2p5">commblksobsolete\v2p5</a>          - (No table of contents file)
+<a href="matlab:help commblksobsolete\v2">commblksobsolete\v2</a>            - (No table of contents file)
+<a href="matlab:help commblks\examples">commblks\examples</a>              - (No table of contents file)
+<a href="matlab:help shared\comparisons">shared\comparisons</a>             - (No table of contents file)
+<a href="matlab:help toolbox\compiler">toolbox\compiler</a>               - MATLAB Compiler
+<a href="matlab:help control\control">control\control</a>                - Control System Toolbox
+<a href="matlab:help control\ctrlguis">control\ctrlguis</a>               - Control System Toolbox --  Visualization and plot manipulation.
+<a href="matlab:help control\ctrlobsolete">control\ctrlobsolete</a>           - Control System Toolbox -- obsolete commands.
+<a href="matlab:help control\ctrlutil">control\ctrlutil</a>               - Control System Toolbox -- Utilities and MEX files.
+<a href="matlab:help control\ctrldemos">control\ctrldemos</a>              - Control System Toolbox -- Demos.
+<a href="matlab:help shared\slcontrollib">shared\slcontrollib</a>            - Simulink Control Design Library
+<a href="matlab:help shared\dastudio">shared\dastudio</a>                - (No table of contents file)
+<a href="matlab:help controllib\engine">controllib\engine</a>              - Control Library - Engine.
+<a href="matlab:help engine\options">engine\options</a>                 - (No table of contents file)
+<a href="matlab:help controllib\general">controllib\general</a>             - Control Library -  General Utilities.
+<a href="matlab:help controllib\graphics">controllib\graphics</a>            - Control Library - Graphics.
+<a href="matlab:help controllib\requirements">controllib\requirements</a>        - Control Library - Design Requirements.
+<a href="matlab:help curvefit\curvefit">curvefit\curvefit</a>              - Curve Fitting Toolbox
+<a href="matlab:help curvefit\splines">curvefit\splines</a>               - Curve Fitting Toolbox -- Spline Functions
+<a href="matlab:help curvefit\cftoolgui">curvefit\cftoolgui</a>             - Curve Fitting Toolbox -- Curve Fitting Tool
+<a href="matlab:help curvefit\sftoolgui">curvefit\sftoolgui</a>             - Curve Fitting Toolbox -- Surface Fitting Tool
+<a href="matlab:help curvefit\curvefitdemos">curvefit\curvefitdemos</a>         - Curve Fitting Toolbox -- Demos
+<a href="matlab:help shared\optimlib">shared\optimlib</a>                - Optimization Toolbox Library
+<a href="matlab:help daq\daq">daq\daq</a>                        - Data Acquisition Toolbox
+<a href="matlab:help daq\daqguis">daq\daqguis</a>                    - Data Acquisition Toolbox - Data Acquisition Soft Instruments.
+<a href="matlab:help daq\daqdemos">daq\daqdemos</a>                   - Data Acquisition Toolbox - Data Acquisition Demos.
+<a href="matlab:help daqblks\daqblks">daqblks\daqblks</a>                - (No table of contents file)
+<a href="matlab:help daqblks\daqmasks">daqblks\daqmasks</a>               - (No table of contents file)
+<a href="matlab:help daqblks\daqmex">daqblks\daqmex</a>                 - (No table of contents file)
+<a href="matlab:help database\database">database\database</a>              - Database Toolbox
+<a href="matlab:help database\dbdemos">database\dbdemos</a>               - Database Toolbox Demonstration Functions.
+<a href="matlab:help database\vqb">database\vqb</a>                   - Visual Query Builder functions.
+<a href="matlab:help datafeed\datafeed">datafeed\datafeed</a>              - Datafeed Toolbox
+<a href="matlab:help datafeed\dfgui">datafeed\dfgui</a>                 - Datafeed Toolbox Graphical User Interface
+<a href="matlab:help des\desblks">des\desblks</a>                    - SimEvents
+<a href="matlab:help des\desmasks">des\desmasks</a>                   - (No table of contents file)
+<a href="matlab:help des\desmex">des\desmex</a>                     - (No table of contents file)
+<a href="matlab:help des\desdemos">des\desdemos</a>                   - SimEvents Demos.
+<a href="matlab:help toolbox\distcomp">toolbox\distcomp</a>               - Parallel Computing Toolbox
+<a href="matlab:help distcomp\distcomp">distcomp\distcomp</a>              - (No table of contents file)
+<a href="matlab:help distcomp\user">distcomp\user</a>                  - (No table of contents file)
+<a href="matlab:help distcomp\mpi">distcomp\mpi</a>                   - (No table of contents file)
+<a href="matlab:help distcomp\pctdemos">distcomp\pctdemos</a>              - (No table of contents file)
+<a href="matlab:help distcomp\parallel">distcomp\parallel</a>              - Parallel Algorithms
+<a href="matlab:help parallel\lapack">parallel\lapack</a>                - (No table of contents file)
+<a href="matlab:help parallel\util">parallel\util</a>                  - (No table of contents file)
+<a href="matlab:help distcomp\lang">distcomp\lang</a>                  - Parallel computing programming language constructs.
+<a href="matlab:help distcomp\gpu">distcomp\gpu</a>                   - Parallel Computing Toolbox
+<a href="matlab:help distcomp\worker">distcomp\worker</a>                - MATLAB Distributed Computing Server
+<a href="matlab:help dotnetbuilder\dotnetbuilder">dotnetbuilder\dotnetbuilder</a>    - MATLAB Builder NE
+<a href="matlab:help dspblks\dspblks">dspblks\dspblks</a>                - Signal Processing Blockset
+<a href="matlab:help dspblks\dspmasks">dspblks\dspmasks</a>               - Signal Processing Blockset mask helper functions.
+<a href="matlab:help dspblks\dspmex">dspblks\dspmex</a>                 - DSP Blockset S-Function MEX-files.
+<a href="matlab:help dspblks\dspdemos">dspblks\dspdemos</a>               - Signal Processing Blockset demonstrations and examples.
+<a href="matlab:help shared\filterdesignlib">shared\filterdesignlib</a>         - (No table of contents file)
+<a href="matlab:help shared\system">shared\system</a>                  - (No table of contents file)
+<a href="matlab:help dspblks\dspblks">dspblks\dspblks</a>                - (No table of contents file)
+<a href="matlab:help fixedpoint\fixedpoint">fixedpoint\fixedpoint</a>          - Fixed-Point Toolbox
+<a href="matlab:help extensions\eclipseide">extensions\eclipseide</a>          - Using Embedded IDE Link for use with Eclipse(TM) IDE:
+<a href="matlab:help eclipseide\mdlinfo">eclipseide\mdlinfo</a>             - (No table of contents file)
+<a href="matlab:help eclipseide\tfl">eclipseide\tfl</a>                 - (No table of contents file)
+<a href="matlab:help targets\ecoder">targets\ecoder</a>                 - Real-Time Workshop Embedded Coder
+<a href="matlab:help ecoder\ecoderdemos">ecoder\ecoderdemos</a>             - (No table of contents file)
+<a href="matlab:help mpt\mpt">mpt\mpt</a>                        - Module Packaging Features
+<a href="matlab:help mpt\user_specific">mpt\user_specific</a>              - (No table of contents file)
+<a href="matlab:help econ\econ">econ\econ</a>                      - Econometrics Toolbox
+<a href="matlab:help econ\econdemos">econ\econdemos</a>                 - Econometrics Toolbox: Data, Demos, and Examples
+<a href="matlab:help edalink\edalink">edalink\edalink</a>                - EDA Simulator Link
+<a href="matlab:help foundation\hdllink">foundation\hdllink</a>             - (No table of contents file)
+<a href="matlab:help modelsim\modelsim">modelsim\modelsim</a>              - EDA Simulator Link for use with Mentor Graphics ModelSim
+<a href="matlab:help modelsim\modelsimdemos">modelsim\modelsimdemos</a>         - (No table of contents file)
+<a href="matlab:help incisive\incisive">incisive\incisive</a>              - EDA Simulator Link for use with Cadence Incisive
+<a href="matlab:help incisive\incisivedemos">incisive\incisivedemos</a>         - (No table of contents file)
+<a href="matlab:help discovery\discovery">discovery\discovery</a>            - EDA Simulator Link for use with Synopsys Discovery
+<a href="matlab:help discovery\discoverydemos">discovery\discoverydemos</a>       - (No table of contents file)
+<a href="matlab:help tlmgenerator\foundation">tlmgenerator\foundation</a>        - (No table of contents file)
+<a href="matlab:help foundation\tlmgeneratordemos">foundation\tlmgeneratordemos</a>   - (No table of contents file)
+<a href="matlab:help eml\eml">eml\eml</a>                        - (No table of contents file)
+<a href="matlab:help emlcoder\emlcoder">emlcoder\emlcoder</a>              - Embedded MATLAB Coder.
+<a href="matlab:help toolbox\exlink">toolbox\exlink</a>                 - Spreadsheet Link EX
+<a href="matlab:help filterdesign\filterdesign">filterdesign\filterdesign</a>      - Filter Design Toolbox
+<a href="matlab:help filterdesign\quantization">filterdesign\quantization</a>      - (No table of contents file)
+<a href="matlab:help filterdesign\filtdesdemos">filterdesign\filtdesdemos</a>      - (No table of contents file)
+<a href="matlab:help finance\finance">finance\finance</a>                - Financial Toolbox
+<a href="matlab:help finance\calendar">finance\calendar</a>               - Financial Toolbox calendar functions.
+<a href="matlab:help finance\findemos">finance\findemos</a>               - Financial Toolbox demonstration functions.
+<a href="matlab:help finance\finsupport">finance\finsupport</a>             - (No table of contents file)
+<a href="matlab:help finance\ftseries">finance\ftseries</a>               - Financial Toolbox Times Series Functions.
+<a href="matlab:help finderiv\finderiv">finderiv\finderiv</a>              - Financial Derivatives Toolbox
+<a href="matlab:help finderiv\finderivdemos">finderiv\finderivdemos</a>         - (No table of contents file)
+<a href="matlab:help finfixed\finfixed">finfixed\finfixed</a>              - Fixed-Income Toolbox
+<a href="matlab:help finfixed\finfixdemos">finfixed\finfixdemos</a>           - (No table of contents file)
+<a href="matlab:help fixedpoint\fidemos">fixedpoint\fidemos</a>             - (No table of contents file)
+<a href="matlab:help fixedpoint\fixedpointtool">fixedpoint\fixedpointtool</a>      - (No table of contents file)
+<a href="matlab:help shared\spcuilib">shared\spcuilib</a>                - (No table of contents file)
+<a href="matlab:help shared\siglib">shared\siglib</a>                  - (No table of contents file)
+<a href="matlab:help toolbox\fixpoint">toolbox\fixpoint</a>               - Simulink Fixed Point
+<a href="matlab:help edalink\foundation">edalink\foundation</a>             - (No table of contents file)
+<a href="matlab:help extensions\fpgaautomation">extensions\fpgaautomation</a>      - EDA Simulator Link for Xilinx FPGA design automation
+<a href="matlab:help fpgaautomation\fpgademos">fpgaautomation\fpgademos</a>       - (No table of contents file)
+<a href="matlab:help fuzzy\fuzzy">fuzzy\fuzzy</a>                    - Fuzzy Logic Toolbox
+<a href="matlab:help fuzzy\fuzdemos">fuzzy\fuzdemos</a>                 - Fuzzy Logic Toolbox Demos.
+<a href="matlab:help fuzzy\fuzzyutil">fuzzy\fuzzyutil</a>                - (No table of contents file)
+<a href="matlab:help toolbox\gauges">toolbox\gauges</a>                 - Gauges Blockset
+<a href="matlab:help gauges\gaugesdemos">gauges\gaugesdemos</a>             - Gauges Blockset Demos.
+<a href="matlab:help geoweb\geoweb">geoweb\geoweb</a>                  - GeoWeb Functions and Classes
+<a href="matlab:help extensions\ghsmulti">extensions\ghsmulti</a>            - Using Embedded IDE Link for use with Green Hills(R) MULTI(R):
+<a href="matlab:help ghsmulti\util">ghsmulti\util</a>                  - (No table of contents file)
+<a href="matlab:help ghsmulti\multidemos">ghsmulti\multidemos</a>            - (No table of contents file)
+<a href="matlab:help ghsmulti\mdlinfo">ghsmulti\mdlinfo</a>               - (No table of contents file)
+<a href="matlab:help ghsmulti\tfl">ghsmulti\tfl</a>                   - (No table of contents file)
+<a href="matlab:help globaloptim\globaloptim">globaloptim\globaloptim</a>        - Global Optimization Toolbox
+<a href="matlab:help globaloptim\globaloptimdemos">globaloptim\globaloptimdemos</a>   - Global Optimization Toolbox Demos
+<a href="matlab:help hdlcoder\hdlcoder">hdlcoder\hdlcoder</a>              - Simulink HDL Coder 
+<a href="matlab:help hdlcoder\hdlcoderdemos">hdlcoder\hdlcoderdemos</a>         - Simulink HDL Coder Demos
+<a href="matlab:help hdlfilter\hdlfilter">hdlfilter\hdlfilter</a>            - Filter Design HDL Coder 
+<a href="matlab:help hdlfilter\hdlfiltdemos">hdlfilter\hdlfiltdemos</a>         - Filter Design HDL Coder Demos
+<a href="matlab:help extensions\iarew">extensions\iarew</a>               - (No table of contents file)
+<a href="matlab:help iarew\mdlinfo">iarew\mdlinfo</a>                  - (No table of contents file)
+<a href="matlab:help toolbox\idelink">toolbox\idelink</a>                - Embedded IDE Link
+<a href="matlab:help foundation\pjtgenerator">foundation\pjtgenerator</a>        - (No table of contents file)
+<a href="matlab:help pjtgenerator\hookpoints">pjtgenerator\hookpoints</a>        - (No table of contents file)
+<a href="matlab:help pjtgenerator\tgtpref2">pjtgenerator\tgtpref2</a>          - (No table of contents file)
+<a href="matlab:help pjtgenerator\mdlinfo">pjtgenerator\mdlinfo</a>           - (No table of contents file)
+<a href="matlab:help pjtgenerator\blks">pjtgenerator\blks</a>              - (No table of contents file)
+<a href="matlab:help blks\masks">blks\masks</a>                     - (No table of contents file)
+<a href="matlab:help blks\utils">blks\utils</a>                     - (No table of contents file)
+<a href="matlab:help foundation\util">foundation\util</a>                - (No table of contents file)
+<a href="matlab:help foundation\errorhandler">foundation\errorhandler</a>        - (No table of contents file)
+<a href="matlab:help lfsocket\lfsocket">lfsocket\lfsocket</a>              - (No table of contents file)
+<a href="matlab:help foundation\xmakefile">foundation\xmakefile</a>           - (No table of contents file)
+<a href="matlab:help idelink\idelinkdemos">idelink\idelinkdemos</a>           - For Embedded IDE Link Demos, select
+<a href="matlab:help ident\ident">ident\ident</a>                    - System Identification Toolbox
+<a href="matlab:help ident\nlident">ident\nlident</a>                  - Nonlinear System Identification features. Type "help ident" for more info.
+<a href="matlab:help ident\idobsolete">ident\idobsolete</a>               - (No table of contents file)
+<a href="matlab:help ident\idguis">ident\idguis</a>                   - (No table of contents file)
+<a href="matlab:help ident\idutils">ident\idutils</a>                  - (No table of contents file)
+<a href="matlab:help ident\iddemos">ident\iddemos</a>                  - (No table of contents file)
+<a href="matlab:help iddemos\examples">iddemos\examples</a>               - (No table of contents file)
+<a href="matlab:help images\colorspaces">images\colorspaces</a>             - Image Processing Toolbox --- colorspaces
+<a href="matlab:help images\images">images\images</a>                  - Image Processing Toolbox
+<a href="matlab:help images\imdemos">images\imdemos</a>                 - Image Processing Toolbox --- demos and sample images
+<a href="matlab:help images\imuitools">images\imuitools</a>               - Image Processing Toolbox --- imuitools
+<a href="matlab:help images\iptformats">images\iptformats</a>              - Image Processing Toolbox --- File Formats
+<a href="matlab:help images\iptutils">images\iptutils</a>                - Image Processing Toolbox --- utilities
+<a href="matlab:help shared\imageslib">shared\imageslib</a>               - Image Processing Toolbox Library
+<a href="matlab:help imaq\imaq">imaq\imaq</a>                      - Image Acquisition Toolbox
+<a href="matlab:help shared\imaqlib">shared\imaqlib</a>                 - Image Acquisition Toolbox Library
+<a href="matlab:help imaq\imaqdemos">imaq\imaqdemos</a>                 - Image Acquisition Toolbox.
+<a href="matlab:help imaqblks\imaqblks">imaqblks\imaqblks</a>              - (No table of contents file)
+<a href="matlab:help imaqblks\imaqmasks">imaqblks\imaqmasks</a>             - (No table of contents file)
+<a href="matlab:help imaqblks\imaqmex">imaqblks\imaqmex</a>               - (No table of contents file)
+<a href="matlab:help instrument\instrument">instrument\instrument</a>          - Instrument Control Toolbox
+<a href="matlab:help instrument\instrumentdemos">instrument\instrumentdemos</a>     - (No table of contents file)
+<a href="matlab:help instrumentblks\instrumentblks">instrumentblks\instrumentblks</a>  - (No table of contents file)
+<a href="matlab:help instrumentblks\instrumentmex">instrumentblks\instrumentmex</a>   - (No table of contents file)
+<a href="matlab:help instrumentblks\instrumentmasks">instrumentblks\instrumentmasks</a> - (No table of contents file)
+<a href="matlab:help javabuilder\javabuilder">javabuilder\javabuilder</a>        - MATLAB Builder JA
+<a href="matlab:help map\map">map\map</a>                        - Mapping Toolbox
+<a href="matlab:help map\mapdemos">map\mapdemos</a>                   - Mapping Toolbox Demos and Sample Data Sets.
+<a href="matlab:help map\mapdisp">map\mapdisp</a>                    - (No table of contents file)
+<a href="matlab:help map\mapformats">map\mapformats</a>                 - (No table of contents file)
+<a href="matlab:help map\mapproj">map\mapproj</a>                    - (No table of contents file)
+<a href="matlab:help shared\maputils">shared\maputils</a>                - Map Utility Functions
+<a href="matlab:help mbc\mbc">mbc\mbc</a>                        - Model-Based Calibration Toolbox
+<a href="matlab:help mbc\mbcdata">mbc\mbcdata</a>                    - Model-Based Calibration Toolbox private utilities.
+<a href="matlab:help mbc\mbcdemos">mbc\mbcdemos</a>                   - (No table of contents file)
+<a href="matlab:help mbc\mbcdesign">mbc\mbcdesign</a>                  - Model-Based Calibration Toolbox private utilities.
+<a href="matlab:help mbc\mbcexpr">mbc\mbcexpr</a>                    - Model-Based Calibration Toolbox private utilities.
+<a href="matlab:help mbc\mbcguitools">mbc\mbcguitools</a>                - Model-Based Calibration Toolbox private utilities.
+<a href="matlab:help mbc\mbclayouts">mbc\mbclayouts</a>                 - Model-Based Calibration Toolbox private utilities.
+<a href="matlab:help mbc\mbcmodels">mbc\mbcmodels</a>                  - Model-Based Calibration Toolbox private utilities.
+<a href="matlab:help mbc\mbcsimulink">mbc\mbcsimulink</a>                - Model-Based Calibration Toolbox private utilities.
+<a href="matlab:help mbc\mbctools">mbc\mbctools</a>                   - Model-Based Calibration Toolbox private utilities.
+<a href="matlab:help mbc\mbcview">mbc\mbcview</a>                    - Model-Based Calibration Toolbox private utilities.
+<a href="matlab:help slvnv\simcoverage">slvnv\simcoverage</a>              - Simulink Model Coverage Tool 
+<a href="matlab:help mpc\mpc">mpc\mpc</a>                        - Model Predictive Control Toolbox
+<a href="matlab:help mpc\mpcdemos">mpc\mpcdemos</a>                   - (No table of contents file)
+<a href="matlab:help mpc\mpcguis">mpc\mpcguis</a>                    - (No table of contents file)
+<a href="matlab:help mpc\mpcobsolete">mpc\mpcobsolete</a>                - Contents of the previous (obsolete) version of MPC Toolbox
+<a href="matlab:help mpc\mpcutils">mpc\mpcutils</a>                   - (No table of contents file)
+<a href="matlab:help common\configuration">common\configuration</a>           - (No table of contents file)
+<a href="matlab:help mpc555dk\mpc555demos">mpc555dk\mpc555demos</a>           - (No table of contents file)
+<a href="matlab:help mpc555dk\mpc555dk">mpc555dk\mpc555dk</a>              - Using Target Support Package for use with Freescale MPC5xx:
+<a href="matlab:help blockset\mfiles">blockset\mfiles</a>                - (No table of contents file)
+<a href="matlab:help rt\blockset">rt\blockset</a>                    - (No table of contents file)
+<a href="matlab:help toolbox\nnet">toolbox\nnet</a>                   - Neural Network Toolbox
+<a href="matlab:help nnet\nncontrol">nnet\nncontrol</a>                 - Neural Network Toolbox Control System Functions.
+<a href="matlab:help nnet\nndemos">nnet\nndemos</a>                   - Neural Network Demonstrations and Applications
+<a href="matlab:help nndemos\nndatasets">nndemos\nndatasets</a>             - Neural Network Datasets
+<a href="matlab:help nnet\nnadapt">nnet\nnadapt</a>                   - Neural Network Toolbox Adapt Functions.
+<a href="matlab:help nnet\nndatafun">nnet\nndatafun</a>                 - Neural Network Toolbox Data Functions.
+<a href="matlab:help nnet\nnderivative">nnet\nnderivative</a>              - Neural Network Toolbox Derivative Functions.
+<a href="matlab:help nnet\nndistance">nnet\nndistance</a>                - Neural Network Toolbox Distance Functions.
+<a href="matlab:help nnet\nndivision">nnet\nndivision</a>                - Neural Network Toolbox Division Functions.
+<a href="matlab:help nnet\nninitlayer">nnet\nninitlayer</a>               - Neural Network Toolbox Layer Initialization Functions.
+<a href="matlab:help nnet\nninitnetwork">nnet\nninitnetwork</a>             - Neural Network Toolbox Network Initialization Functions.
+<a href="matlab:help nnet\nninitweight">nnet\nninitweight</a>              - Neural Network Toolbox Weight Initialization Functions.
+<a href="matlab:help nnet\nnlearn">nnet\nnlearn</a>                   - Neural Network Toolbox Learning Functions.
+<a href="matlab:help nnet\nnnetfun">nnet\nnnetfun</a>                  - Neural Network Toolbox Network Functions.
+<a href="matlab:help nnet\nnnetinput">nnet\nnnetinput</a>                - Neural Network Toolbox Net Input Functions.
+<a href="matlab:help nnet\nnnetwork">nnet\nnnetwork</a>                 - Neural Network Toolbox Network Creation Functions.
+<a href="matlab:help nnet\nnperformance">nnet\nnperformance</a>             - Neural Network Toolbox Performance Functions.
+<a href="matlab:help nnet\nnplot">nnet\nnplot</a>                    - Neural Network Toolbox Plot Functions.
+<a href="matlab:help nnet\nnprocess">nnet\nnprocess</a>                 - Neural Network Toolbox Processing Functions.
+<a href="matlab:help nnet\nnsearch">nnet\nnsearch</a>                  - Neural Network Toolbox Line Search Functions.
+<a href="matlab:help nnet\nntopology">nnet\nntopology</a>                - Neural Network Toolbox Topology Functions.
+<a href="matlab:help nnet\nntrain">nnet\nntrain</a>                   - Neural Network Toolbox Training Functions.
+<a href="matlab:help nnet\nntransfer">nnet\nntransfer</a>                - Neural Network Toolbox Transfer Functions.
+<a href="matlab:help nnet\nnweight">nnet\nnweight</a>                  - Neural Network Toolbox Weight Functions.
+<a href="matlab:help nnet\nnguis">nnet\nnguis</a>                    - Neural Network Toolbox GUI Functions.
+<a href="matlab:help nnet\nnobsolete">nnet\nnobsolete</a>                - Neural Network Toolbox Obsolete Functions
+<a href="matlab:help nnet\nnutils">nnet\nnutils</a>                   - Neural Network Toolbox Utility Functions
+<a href="matlab:help opc\opc">opc\opc</a>                        - OPC Toolbox
+<a href="matlab:help opc\opcgui">opc\opcgui</a>                     - (No table of contents file)
+<a href="matlab:help opc\opcdemos">opc\opcdemos</a>                   - OPC Toolbox - OPC Demos
+<a href="matlab:help opcdemos\opcblksdemos">opcdemos\opcblksdemos</a>          - OPC Toolbox Block Library Demos.
+<a href="matlab:help opcblks\opcblks">opcblks\opcblks</a>                - OPC Toolbox Block Library Support Functions.
+<a href="matlab:help optim\optim">optim\optim</a>                    - Optimization Toolbox
+<a href="matlab:help optim\optimdemos">optim\optimdemos</a>               - Demonstrations of large-scale methods.
+<a href="matlab:help toolbox\pde">toolbox\pde</a>                    - Partial Differential Equation Toolbox
+<a href="matlab:help pde\pdedemos">pde\pdedemos</a>                   - Partial Differential Equation Toolbox Demos
+<a href="matlab:help data_manager\data_manager">data_manager\data_manager</a>      - (No table of contents file)
+<a href="matlab:help drive\drive">drive\drive</a>                    - SimDriveline 
+<a href="matlab:help drive\drivedemos">drive\drivedemos</a>               - (No table of contents file)
+<a href="matlab:help elec\elec">elec\elec</a>                      - SimElectronics 
+<a href="matlab:help elec\elecdemos">elec\elecdemos</a>                 - (No table of contents file)
+<a href="matlab:help foundation\foundation">foundation\foundation</a>          - (No table of contents file)
+<a href="matlab:help mech\mech">mech\mech</a>                      - SimMechanics 
+<a href="matlab:help mech\importer">mech\importer</a>                  - (No table of contents file)
+<a href="matlab:help mech\mechdemos">mech\mechdemos</a>                 - SimMechanics Demos.
+<a href="matlab:help network_engine\network_engine">network_engine\network_engine</a>  - (No table of contents file)
+<a href="matlab:help ne_sli\ne_sli">ne_sli\ne_sli</a>                  - (No table of contents file)
+<a href="matlab:help pm_sli\pm_sli">pm_sli\pm_sli</a>                  - (No table of contents file)
+<a href="matlab:help powersys\powersys">powersys\powersys</a>              - SimPowerSystems
+<a href="matlab:help DR\DRdemo">DR\DRdemo</a>                      - (No table of contents file)
+<a href="matlab:help drives\drivesdemo">drives\drivesdemo</a>              - (No table of contents file)
+<a href="matlab:help powersys\powerdemo">powersys\powerdemo</a>             - SimPowerSystems Demos
+<a href="matlab:help sh\sh">sh\sh</a>                          - SimHydraulics 
+<a href="matlab:help sh\shdemos">sh\shdemos</a>                     - (No table of contents file)
+<a href="matlab:help simscape\simscapedemos">simscape\simscapedemos</a>         - (No table of contents file)
+<a href="matlab:help foundation\simscape">foundation\simscape</a>            - Simscape
+<a href="matlab:help simscape\m">simscape\m</a>                     - (No table of contents file)
+<a href="matlab:help unit_manager\unit_manager">unit_manager\unit_manager</a>      - (No table of contents file)
+<a href="matlab:help plccoder\plccoder">plccoder\plccoder</a>              - Simulink PLC Coder
+<a href="matlab:help plccoder\plccoderdemos">plccoder\plccoderdemos</a>         - (No table of contents file)
+<a href="matlab:help qualkits\common">qualkits\common</a>                - (No table of contents file)
+<a href="matlab:help qualkits\do">qualkits\do</a>                    - DO Qualification Kit
+<a href="matlab:help qualkits\iec">qualkits\iec</a>                   - IEC Certification Kit
+<a href="matlab:help slvnv\reqmgt">slvnv\reqmgt</a>                   - Requirements Management Interface.
+<a href="matlab:help slvnv\slvnv">slvnv\slvnv</a>                    - Simulink Verification and Validation
+<a href="matlab:help slvnv\rmidemos">slvnv\rmidemos</a>                 - (No table of contents file)
+<a href="matlab:help rf\rf">rf\rf</a>                          - RF Toolbox
+<a href="matlab:help rf\rfdemos">rf\rfdemos</a>                     - RF Toolbox Demos.
+<a href="matlab:help rf\rftool">rf\rftool</a>                      - RF Tool (GUI)
+<a href="matlab:help rfblks\rfblks">rfblks\rfblks</a>                  - SimRF
+<a href="matlab:help rfblks\rfblksmasks">rfblks\rfblksmasks</a>             - RF Blockset mask helper functions.
+<a href="matlab:help rfblks\rfblksmex">rfblks\rfblksmex</a>               - RF Blockset S-functions.
+<a href="matlab:help rfblks\rfblksdemos">rfblks\rfblksdemos</a>             - RF Blockset Demos.
+<a href="matlab:help robust\robust">robust\robust</a>                  - Robust Control Toolbox
+<a href="matlab:help robust\rctlmi">robust\rctlmi</a>                  - Robust Control Toolbox - LMI Solvers.
+<a href="matlab:help robust\rctutil">robust\rctutil</a>                 - (No table of contents file)
+<a href="matlab:help robust\rctdemos">robust\rctdemos</a>                - (No table of contents file)
+<a href="matlab:help rctobsolete\lmi">rctobsolete\lmi</a>                - (No table of contents file)
+<a href="matlab:help mutools\commands">mutools\commands</a>               - (No table of contents file)
+<a href="matlab:help mutools\subs">mutools\subs</a>                   - Utilities for obsolete MUTOOLS commands.
+<a href="matlab:help rptgen\rptgen">rptgen\rptgen</a>                  - MATLAB Report Generator
+<a href="matlab:help rptgen\rptgendemos">rptgen\rptgendemos</a>             - (No table of contents file)
+<a href="matlab:help rptgen\rptgenv1">rptgen\rptgenv1</a>                - (No table of contents file)
+<a href="matlab:help rptgenext\rptgenext">rptgenext\rptgenext</a>            - Simulink Report Generator
+<a href="matlab:help rptgenext\rptgenextdemos">rptgenext\rptgenextdemos</a>       - (No table of contents file)
+<a href="matlab:help rptgenext\rptgenextv1">rptgenext\rptgenextv1</a>          - (No table of contents file)
+<a href="matlab:help shared\rptgen">shared\rptgen</a>                  - (No table of contents file)
+<a href="matlab:help sam\studio">sam\studio</a>                     - (No table of contents file)
+<a href="matlab:help targets\autosar">targets\autosar</a>                - (No table of contents file)
+<a href="matlab:help signal\signal">signal\signal</a>                  - Signal Processing Toolbox 
+<a href="matlab:help signal\sigtools">signal\sigtools</a>                - (No table of contents file)
+<a href="matlab:help signal\sptoolgui">signal\sptoolgui</a>               - (No table of contents file)
+<a href="matlab:help signal\sigdemos">signal\sigdemos</a>                - (No table of contents file)
+<a href="matlab:help simbio\simbio">simbio\simbio</a>                  - SimBiology
+<a href="matlab:help simbio\simbiodemos">simbio\simbiodemos</a>             - SimBiology Demos
+<a href="matlab:help shared\statslib">shared\statslib</a>                - Statistics Toolbox Library
+<a href="matlab:help simrf\simrf">simrf\simrf</a>                    - SimRF
+<a href="matlab:help simrf\simrfdemos">simrf\simrfdemos</a>               - (No table of contents file)
+<a href="matlab:help sl3d\sl3d">sl3d\sl3d</a>                      - Simulink 3D Animation
+<a href="matlab:help sl3d\sl3ddemos">sl3d\sl3ddemos</a>                 - Simulink 3D Animation examples.
+<a href="matlab:help slcontrol\slcontrol">slcontrol\slcontrol</a>            - Simulink Control Design 
+<a href="matlab:help slcontrol\slctrlguis">slcontrol\slctrlguis</a>           - (No table of contents file)
+<a href="matlab:help slcontrol\slctrlutil">slcontrol\slctrlutil</a>           - (No table of contents file)
+<a href="matlab:help slcontrol\slctrldemos">slcontrol\slctrldemos</a>          - (No table of contents file)
+<a href="matlab:help sldo\sldo">sldo\sldo</a>                      - Simulink Design Optimization 
+<a href="matlab:help sldo\sldodemos">sldo\sldodemos</a>                 - Simulink Design Optimization Demos.
+<a href="matlab:help sldodemos\optim">sldodemos\optim</a>                - (No table of contents file)
+<a href="matlab:help sldodemos\estim">sldodemos\estim</a>                - (No table of contents file)
+<a href="matlab:help sloptim\sloptim">sloptim\sloptim</a>                - (No table of contents file)
+<a href="matlab:help sloptim\sloptguis">sloptim\sloptguis</a>              - (No table of contents file)
+<a href="matlab:help sloptim\sloptobsolete">sloptim\sloptobsolete</a>          - (No table of contents file)
+<a href="matlab:help slestim\slestguis">slestim\slestguis</a>              - (No table of contents file)
+<a href="matlab:help slestim\slestim">slestim\slestim</a>                - (No table of contents file)
+<a href="matlab:help slestim\slestmex">slestim\slestmex</a>               - Simulink Design Optimization Estimation S-Function MEX-files.
+<a href="matlab:help slestim\slestutil">slestim\slestutil</a>              - (No table of contents file)
+<a href="matlab:help sldv\sldv">sldv\sldv</a>                      - Simulink Design Verifier 
+<a href="matlab:help sldv\sldvdemos">sldv\sldvdemos</a>                 - (No table of contents file)
+<a href="matlab:help shared\sldv">shared\sldv</a>                    - sldvisactive         - Check if Simulink Design Verifier software is analyzing model 
+<a href="matlab:help slvnv\simcovdemos">slvnv\simcovdemos</a>              - (No table of contents file)
+<a href="matlab:help slvnv\slvnvdemos">slvnv\slvnvdemos</a>               - (No table of contents file)
+<a href="matlab:help shared\slvnv">shared\slvnv</a>                   - (No table of contents file)
+<a href="matlab:help rptgenext\slxmlcomp">rptgenext\slxmlcomp</a>            - (No table of contents file)
+<a href="matlab:help stats\stats">stats\stats</a>                    - Statistics Toolbox
+<a href="matlab:help stats\statsdemos">stats\statsdemos</a>               - Statistics Toolbox
+<a href="matlab:help symbolic\symbolic">symbolic\symbolic</a>              - Symbolic Math Toolbox
+<a href="matlab:help symbolic\symbolicdemos">symbolic\symbolicdemos</a>         - (No table of contents file)
+<a href="matlab:help systemtest\systemtest">systemtest\systemtest</a>          - SystemTest
+<a href="matlab:help systemtest\systemtestdemos">systemtest\systemtestdemos</a>     - SystemTest demonstrations and examples.
+<a href="matlab:help systemtest\viewer">systemtest\viewer</a>              - (No table of contents file)
+<a href="matlab:help toolbox\target">toolbox\target</a>                 - Target Support Package
+<a href="matlab:help target\targetdemos">target\targetdemos</a>             - For Target Support Package Demos, select
+<a href="matlab:help foundation\utils">foundation\utils</a>               - (No table of contents file)
+<a href="matlab:help blks\mex">blks\mex</a>                       - (No table of contents file)
+<a href="matlab:help blks\masks">blks\masks</a>                     - (No table of contents file)
+<a href="matlab:help processor\tic2000">processor\tic2000</a>              - Using Target Support Package for use with Texas Instruments C2000:
+<a href="matlab:help tic2000\utils">tic2000\utils</a>                  - (No table of contents file)
+<a href="matlab:help blks\masks">blks\masks</a>                     - (No table of contents file)
+<a href="matlab:help tic2000\tic2000demos">tic2000\tic2000demos</a>           - (No table of contents file)
+<a href="matlab:help processor\tic6000">processor\tic6000</a>              - Using Target Support Package for use with Texas Instruments C6000:
+<a href="matlab:help tic6000\tfl">tic6000\tfl</a>                    - (No table of contents file)
+<a href="matlab:help tic6000\utils">tic6000\utils</a>                  - (No table of contents file)
+<a href="matlab:help blks\masks">blks\masks</a>                     - TI C6000 (tm) Blocks
+<a href="matlab:help tic6000\tic6000demos">tic6000\tic6000demos</a>           - (No table of contents file)
+<a href="matlab:help blks\masks">blks\masks</a>                     - (No table of contents file)
+<a href="matlab:help blks\masks">blks\masks</a>                     - (No table of contents file)
+<a href="matlab:help blks\masks">blks\masks</a>                     - (No table of contents file)
+<a href="matlab:help intelhost\tfl">intelhost\tfl</a>                  - (No table of contents file)
+<a href="matlab:help ti\mdlinfo">ti\mdlinfo</a>                     - (No table of contents file)
+<a href="matlab:help ti\utils">ti\utils</a>                       - (No table of contents file)
+<a href="matlab:help blks\masks">blks\masks</a>                     - (No table of contents file)
+<a href="matlab:help etargets\etargets">etargets\etargets</a>              - (No table of contents file)
+<a href="matlab:help etargets\demoutils">etargets\demoutils</a>             - (No table of contents file)
+<a href="matlab:help tasking\tasking">tasking\tasking</a>                - Using Embedded IDE Link for use with Altium(R) TASKING(R):
+<a href="matlab:help tasking\taskingdemos">tasking\taskingdemos</a>           - (No table of contents file)
+<a href="matlab:help testmeaslib\simulink">testmeaslib\simulink</a>           - (No table of contents file)
+<a href="matlab:help processor\tic5000">processor\tic5000</a>              - Using Target Support Package for use with Texas Instruments C5000:
+<a href="matlab:help blks\masks">blks\masks</a>                     - (No table of contents file)
+<a href="matlab:help tic5000\tic5000demos">tic5000\tic5000demos</a>           - (No table of contents file)
+<a href="matlab:help extensions\ticcs">extensions\ticcs</a>               - Using Embedded IDE Link for use with Texas Instruments(TM) Code Composer Studio(TM):
+<a href="matlab:help ticcs\ccsblks">ticcs\ccsblks</a>                  - (No table of contents file)
+<a href="matlab:help ticcs\ccsdemos">ticcs\ccsdemos</a>                 - (No table of contents file)
+<a href="matlab:help ccsdemos\util">ccsdemos\util</a>                  - (No table of contents file)
+<a href="matlab:help ticcs\ccslinkblks">ticcs\ccslinkblks</a>              - (No table of contents file)
+<a href="matlab:help ccslinkblks\rtdxsimblks">ccslinkblks\rtdxsimblks</a>        - (No table of contents file)
+<a href="matlab:help ticcs\lic">ticcs\lic</a>                      - (No table of contents file)
+<a href="matlab:help ticcs\mdlinfo">ticcs\mdlinfo</a>                  - (No table of contents file)
+<a href="matlab:help ticcs\tfl">ticcs\tfl</a>                      - (No table of contents file)
+<a href="matlab:help ticcs\util">ticcs\util</a>                     - (No table of contents file)
+<a href="matlab:help ticcs\envChecker">ticcs\envChecker</a>               - (No table of contents file)
+<a href="matlab:help vipblks\vipblks">vipblks\vipblks</a>                - Video and Image Processing Blockset
+<a href="matlab:help vipblks\vipmasks">vipblks\vipmasks</a>               - (No table of contents file)
+<a href="matlab:help vipblks\vipmex">vipblks\vipmex</a>                 - (No table of contents file)
+<a href="matlab:help vipblks\vipdemos">vipblks\vipdemos</a>               - Video and Image Processing Blockset demonstrations and examples.
+<a href="matlab:help vnt\vnt">vnt\vnt</a>                        - Vehicle Network Toolbox
+<a href="matlab:help vnt\vntguis">vnt\vntguis</a>                    - (No table of contents file)
+<a href="matlab:help vnt\vntdemos">vnt\vntdemos</a>                   - (No table of contents file)
+<a href="matlab:help vntblks\vntblks">vntblks\vntblks</a>                - (No table of contents file)
+<a href="matlab:help vntblks\vntmasks">vntblks\vntmasks</a>               - (No table of contents file)
+<a href="matlab:help wavelet\wavelet">wavelet\wavelet</a>                - Wavelet Toolbox
+<a href="matlab:help wavelet\wmultisig1d">wavelet\wmultisig1d</a>            - (No table of contents file)
+<a href="matlab:help wavelet\wavedemo">wavelet\wavedemo</a>               - (No table of contents file)
+<a href="matlab:help wavelet\compression">wavelet\compression</a>            - (No table of contents file)
+<a href="matlab:help extensions\wrworkbench">extensions\wrworkbench</a>         - (No table of contents file)
+<a href="matlab:help wrworkbench\mdlinfo">wrworkbench\mdlinfo</a>            - (No table of contents file)
+<a href="matlab:help xpc\xpc">xpc\xpc</a>                        - xPC Target
+<a href="matlab:help xpcblocks\thirdpartydrivers">xpcblocks\thirdpartydrivers</a>    - (No table of contents file)
+<a href="matlab:help build\xpcblocks">build\xpcblocks</a>                - xPC Target -- Blocks
+<a href="matlab:help xpc\xpcdemos">xpc\xpcdemos</a>                   - xPC Target -- demos and sample script files.
+<a href="matlab:help kernel\embedded">kernel\embedded</a>                - xPC Target Embedded Option
+
+more
+ans
+
+ans =
+
+    5.0990    7.6158
+    6.3246    8.9443
+
+ans
+
+ans =
+
+    5.0990    7.6158
+    6.3246    8.9443
+
+clc
+type
+{??? Error using ==> type
+Not enough input arguments.
+} 
+which
+{??? Error using ==> which
+Not enough input arguments.
+} 
+dir
+
+.                       MODEL                   NL_PID_fhan_c.m         TD2_L.m                 
+..                      NLSEF_2fal.m            Nonlinear_PD.m          TD2_L_Rise.m            
+ADRC.mdl                NLSEF_3fal.m            Nonlinear_PD_fhan.m     TD2_NL.m                
+ADRC_2.m                NLSEF_B0_fhan.m         Nonlinear_PD_fhan_c.m   diary                   
+ESO.m                   NLSEF_fhan.m            Plant1.m                fdb.m                   
+ESO2_NL.m               NLSEF_fhan_c.m          Plant2.m                function                
+ESO_2rd.m               NLSFS1.m                Plant3.m                slblocks.m              
+Linear_PD.m             NL_PID_3fal.m           ReferenceProcess.m      
+Linear_PID_2LinearTD.m  NL_PID_B0_fhan.m        TD.m                    
+Linear_PID_TD1_SO.m     NL_PID_LC.m             TD1_L.m                 
+
+tyoe
+{??? Undefined function or variable 'tyoe'.
+} 
+type
+{??? Error using ==> type
+Not enough input arguments.
+} 
+which
+{??? Error using ==> which
+Not enough input arguments.
+} 
+dir
+
+.                       MODEL                   NL_PID_fhan_c.m         TD2_L.m                 
+..                      NLSEF_2fal.m            Nonlinear_PD.m          TD2_L_Rise.m            
+ADRC.mdl                NLSEF_3fal.m            Nonlinear_PD_fhan.m     TD2_NL.m                
+ADRC_2.m                NLSEF_B0_fhan.m         Nonlinear_PD_fhan_c.m   diary                   
+ESO.m                   NLSEF_fhan.m            Plant1.m                fdb.m                   
+ESO2_NL.m               NLSEF_fhan_c.m          Plant2.m                function                
+ESO_2rd.m               NLSFS1.m                Plant3.m                slblocks.m              
+Linear_PD.m             NL_PID_3fal.m           ReferenceProcess.m      
+Linear_PID_2LinearTD.m  NL_PID_B0_fhan.m        TD.m                    
+Linear_PID_TD1_SO.m     NL_PID_LC.m             TD1_L.m                 
+
+which
+{??? Error using ==> which
+Not enough input arguments.
+} 
+clc
+cd
+
+D:\Program Files\MATLAB\R2010b\toolbox\simulink\MyLibrary
+
+who
+
+Your variables are:
+
+A    AA   AAA  Am   B    ans  
+
+whos
+  Name      Size            Bytes  Class     Attributes
+
+  A         2x2                64  double    complex   
+  AA        2x2                32  double              
+  AAA       2x2                32  double              
+  Am        2x2                32  double              
+  B         1x1                16  double    complex   
+  ans       2x2                32  double              
+
+clc
+quit
